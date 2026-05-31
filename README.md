@@ -60,7 +60,7 @@ Edit `src/CpuMonitor.Console/appsettings.json`:
 }
 ```
 
-Replace `Api:EndpointUrl` with the real endpoint to publish monitoring data using HTTP POST. The API plugin is enabled by default so the assessment requirement is active through JSON configuration. The API payload is:
+Replace `Api:EndpointUrl` with the real endpoint to publish monitoring data using HTTP POST. The API plugin is enabled by default so the requirement is active through JSON configuration. The API payload is:
 
 ```json
 {
